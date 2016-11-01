@@ -1,0 +1,29 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "My first react app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aika",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "bootstrap": "*",
+    "express": "*",
+    "jquery": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "webpack": "*"
+  }
+}
