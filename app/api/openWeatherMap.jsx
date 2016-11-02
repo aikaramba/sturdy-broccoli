@@ -16,6 +16,12 @@ module.exports = {
       }
     },(res)=>{
       //reject
+      res = {
+        data:{
+          message: "City not found"
+        },
+        message: "City not found",
+      }
       throw new Error(res.data.message);
     });
   }
